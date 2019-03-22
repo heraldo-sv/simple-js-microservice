@@ -10,7 +10,7 @@ Simple webApiREST para consumo de servicios, construido con [NestJS](https://git
 $ npm install
 ```
 
-### Ejecutar API
+### Ejecución
 
 ```bash
 # Desarrollo
