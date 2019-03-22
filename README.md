@@ -5,7 +5,7 @@
 
 Simple webApiREST para consumo de servicios, construido con [NestJS](https://github.com/nestjs/nest) framework + TypeScript + NodeJS
 
-Para consumo de servicios: GET, POST, PUT, DELETE.
+Consumo de servicios: GET, POST, PUT, DELETE.
 
 ### Instalación
 
