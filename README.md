@@ -24,3 +24,33 @@ $ npm run start:dev
 # Producción
 $ npm run start:prod
 ```
+
+### Consumo
+Estructura para peticiones: _[host:port/controller/param](#)_
+
+##### POST & PUT
+
+- url
+    ```url
+    host:3000/message/1
+   ```
+- Body
+    ```json
+    {
+        "nick"    : "Heraldo",
+        "message" : "heraldo_delvalle"
+    }
+    ```
+> POST & PUT requieren un objeto {JSON} serializado, pero únicamente PUT requiere un identificador (id) como parámetro para actualizar.
+
+##### GET & DELETE
+
+- url
+    ```url
+    host:3000/message/1
+   ```
+- Body
+    ```json
+    { }
+    ```
+> GET & DELETE no requieren un objeto {JSON} serializado, pero únicamente DELETE requiere un identificador (id) como parámetro para eliminar.
